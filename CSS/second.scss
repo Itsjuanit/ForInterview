@@ -1,0 +1,93 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+$principal-font: 'Bebas Neue',
+cursive;
+$second-font:'Roboto', sans-serif;
+
+body {
+
+    .wrapper {
+        min-width: 100vw;
+        min-height: 100vh;
+        background-image: url(/SRC/last.png);
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: multiply;
+        font-family: $principal-font;
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            height: 170px;
+            background-color: #fafafa;
+
+
+            &-img {
+                margin-left: 250px;
+                margin-top: -30px;
+            }
+
+            .text {
+                margin-top: 50px;
+                margin-left: 10px;
+                font-family: $second-font;
+                
+            }
+
+            .nav {
+                display: flex;
+
+                &-anchors {
+                    font-size: 1.5rem;
+                    padding: 15px;
+                    text-decoration: none;
+                    color: #fafafa;
+                    margin-right: 50px;
+                }
+            }
+        }
+
+        .mini {
+            width: 100vw;
+            height: 40px;
+            background-color: #414f6b;
+            display: flex;
+            
+            .mountain1 {
+                height: 40px;
+                background-color: #b0b4be;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                color: #414f6b;
+                font-size: 1.4rem;
+                margin-left: 250px;
+            }
+
+            .mountain2 {
+                height: 40px;
+                background-color: #414f6b;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                color: #b0b4be;
+                font-size: 1.4rem;
+            }
+        }
+
+        .table {
+            width: 300px;
+            height: 300px;
+            border: 1px solid red;
+            display: flex;
+            margin-top: 30px;
+            margin-left: 250px;
+        }
+    }
+}
