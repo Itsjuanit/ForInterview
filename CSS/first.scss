@@ -6,6 +6,7 @@
 
 $principal-font: 'Bebas Neue',
 cursive;
+$second-font:'Roboto', sans-serif;
 
 body {
 
@@ -24,10 +25,11 @@ body {
             justify-content: space-between;
             height: 65px;
             background-color: #fafafa;
-            
+
             &-img {
                 margin-left: 100px;
-                
+                display: flex;
+                flex-direction: row;
             }
 
             .nav {
@@ -39,6 +41,44 @@ body {
                     text-decoration: none;
                     color: #414f6b;
                     margin-right: 50px;
+                }
+            }
+        }
+
+        .main {
+            font-family: $second-font;
+            display: flex;
+            align-items: center;
+
+            &-paragraph {
+                font-family: $second-font;
+                color: #222222;
+                margin-top: 125px;
+                width: 500px;
+                font-weight: 500;
+                margin-left: 290px;
+                font-size: 1.23rem;
+            }
+        }
+
+        .container{
+            margin-top: 221px;
+            display: flex;
+            justify-content: center;
+            height: 150px;
+            
+            .glide {
+                background-color: #39465d;
+                opacity: 0.9;
+
+                .glide__track {
+                    
+                    .glide__slides {
+                        
+                        .glide__slide {
+                            margin-top: 10px;
+                        }
+                    }
                 }
             }
         }

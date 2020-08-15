@@ -29,6 +29,13 @@ body .wrapper .header {
 
 body .wrapper .header-img {
   margin-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 body .wrapper .header .nav {
@@ -43,5 +50,45 @@ body .wrapper .header .nav-anchors {
   text-decoration: none;
   color: #414f6b;
   margin-right: 50px;
+}
+
+body .wrapper .main {
+  font-family: "Roboto", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrapper .main-paragraph {
+  font-family: "Roboto", sans-serif;
+  color: #222222;
+  margin-top: 125px;
+  width: 500px;
+  font-weight: 500;
+  margin-left: 290px;
+  font-size: 1.23rem;
+}
+
+body .wrapper .container {
+  margin-top: 221px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 150px;
+}
+
+body .wrapper .container .glide {
+  background-color: #39465d;
+  opacity: 0.9;
+}
+
+body .wrapper .container .glide .glide__track .glide__slides .glide__slide {
+  margin-top: 10px;
 }
 /*# sourceMappingURL=first.css.map */
