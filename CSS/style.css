@@ -4,4 +4,42 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+body .wrapper {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url(/SRC/first-background.png);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  font-family: "Bebas Neue", cursive;
+}
+
+body .wrapper .header {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .wrapper .header-img {
+  margin-left: 100px;
+}
+
+body .wrapper .header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .wrapper .header .nav-anchors {
+  font-size: 1.5rem;
+  padding: 15px;
+  text-decoration: none;
+  color: #fafafa;
+  margin-right: 50px;
+}
 /*# sourceMappingURL=style.css.map */
